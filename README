@@ -6,7 +6,7 @@ Makefile will compile both programs.
 TAR:
   Includes create archive, add file [-a], and extract file [-e].
   
-  To create an archive run tinytar with:
+  To create an archive run ttar with:
   "./ttar <archivename>"
   
   To add a file to the new archive run tinytar with:
@@ -18,8 +18,8 @@ TAR:
 CAT:
   Includes reading file contents and printing file names and numbers [-b] from an archive.
 
-  To use cat utility for printing file contents run:
+  To use cat utility for printing file contents run ccat with:
   "./ccat <filename> <filename2> ..."
 
-  To use cat utility for printing archive contents created with TAR run:
+  To use cat utility for printing archive contents created with TAR run ccat with:
   "./ccat [-b] <archivename>"
