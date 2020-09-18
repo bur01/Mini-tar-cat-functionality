@@ -7,14 +7,14 @@ TAR:
   Includes create archive, add file [-a], and extract file [-e].
   
   To create an archive run tinytar with:
-  "./tinytar <archivename>"
+  "./ttar <archivename>"
   
   To add a file to the new archive run tinytar with:
-  "./tinytar [-a] <archivename> <filename>"
+  "./ttar [-a] <archivename> <filename>"
   
   To extract a file from the archive run tinytar with:
-  "./tinytar [-e] <archivename> <filename>"
+  "./ttar [-e] <archivename> <filename>"
 
 CAT:
   To use the cat utility run:
-  "./wc <filename> <filename2> ..."
+  "./ccat <filename> <filename2> ..."
