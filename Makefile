@@ -1,7 +1,7 @@
-all: tinytar wc
+all: ttar ccat
 
-tinytar: tinytar.c
-	gcc -o tinytar tinytar.c
+ttar: ttar.c
+	gcc -o ttar ttar.c
 
-wc: wc.c
-	gcc -o wc wc.c
+ccat: ccat.c
+	gcc -o ccat ccat.c
