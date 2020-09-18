@@ -16,5 +16,10 @@ TAR:
   "./ttar [-e] <archivename> <filename>"
 
 CAT:
-  To use the cat utility run:
+  Includes reading file contents and printing file names and numbers [-b] from an archive.
+
+  To use cat utility for printing file contents run:
   "./ccat <filename> <filename2> ..."
+
+  To use cat utility for printing archive contets created with TAR run:
+  "./ccat [-b] <archivename>"
